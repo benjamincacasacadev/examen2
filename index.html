@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen 2do parcial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+</head>
+<body>
+    <div id="contenedor">
+        <!-- CABECERA -->
+        <div class="cabecera">
+            <div class="element_header infouser">
+                <span id="loginUser">
+                    Iniciar sesión
+                </span>
+            </div>
+
+            <div class="element_header menu cursor-pointer selected">Inicio</div>
+            <div class="element_header menu cursor-pointer">Sobre nosotros</div>
+            <div class="element_header menu cursor-pointer">Galeria</div>
+            <div class="element_header menu cursor-pointer">Contacto</div>
+        </div>
+        <!-- INICIO -->
+        <div id="inicio">
+            <img src="https://onnbolivia.com/logo.png" class="logoImg">
+            <h1>Samaritan's Purse</h1>
+        </div>
+
+
+        <!-- SECCION 1 -->
+        <div id="seccion_1">
+            <div class="seccion1_izq">
+                <b>Iniciar sesión</b> <br>
+                <input type="text" class="form-control" placeholder="Ingrese nombre de usuario" id="loginInput"> <br>
+                <button type="button" class="btn" style="float:right" onclick="login()">Ingresar</button>
+            </div>
+            <div class="seccion1_izq">
+                <center>
+                    <img src="https://onnbolivia.com/logo.png" class="logomain">
+                </center>
+            </div>
+            <div class="seccion1_izq">
+                ¡Bienvenido a Operación Niño de la Navidad (ONN), un proyecto de Samaritan's Purse! Usted es uno de los miles de cristianos alrededor del mundo que están comprometidos con la evangelización, el discipulado y la multiplicación. ¡Qué gran privilegio nos ha dado Dios de servir juntos y usar los dones y talentos con los que Él nos ha equipado!
+            </div>
+        </div>
+
+        <div id="seccion_2">
+            <div class="seccion2_izq">
+                <svg class="icon-tabler" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <ellipse cx="16" cy="6" rx="5" ry="3"></ellipse>
+                    <path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"></path>
+                    <path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"></path>
+                    <path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4"></path>
+                    <path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"></path>
+                    <path d="M5 15v1m0 -8v1"></path>
+                </svg> Donar <br>
+                <svg class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                </svg> Facebook <br>
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                </svg> Twitter <br>
+
+                <svg class="icon icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                    <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"></path>
+                </svg> +591-78771773
+            </div>
+            <div class="seccion2_med">
+                <b>¿POR QUÉ ONN?</b> <br>
+
+                En octubre de 1990, Dave Cooke, un empresario del Reino Unido, vio un reportaje de noticias sobre el conflicto en Rumania. La guerra estaba causando que los niños fueran abandonados en orfanatorios rumanos. Si bien no pudo resolver la guerra, pudo mostrarles a estos niños que no estaban olvidados. Reunió a amigos y familiares con el propósito de recolectar regalos para estos niños necesitados. Operation Chistmas Child comenzó con una caravana de nueve camiones y 17 voluntarios que condujeron hacia Rumania con cajitas de zapatos llenas de regalos.
+            </div>
+            <div class="seccion1_izq">
+                <b>Conversor de monedas</b> <br>
+                <select name="selectMonedas" id="selectMonedas" class="form-select">
+                    <option value="1">Bs a dolares</option>
+                    <option value="2">Dolares a Bs</option>
+                </select> <br>
+                <input type="number" class="form-control" placeholder="Introducir valor" id="convInput"> <br>
+
+                <b id="resultadoConver" style="font-size:20px"></b>
+                <button type="button" class="btn" style="float:right" onclick="convertir()">Convertir</button>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+</body>
+</html>

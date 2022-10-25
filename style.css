@@ -1,0 +1,220 @@
+body{
+    font-family: Arial;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+    padding: .4375rem .75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.4285714;
+    color: #1f1f1f;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dadcde;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.form-select {
+    display: block;
+    width: 100%;
+    padding: .4375rem 2.25rem .4375rem .75rem;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.4285714;
+    color: #1f1f1f;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dadcde' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #dadcde;
+    border-radius: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+
+.btn {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.4285714;
+    color: #1f1f1f;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .4375rem 1rem;
+    font-size: .875rem;
+    border-radius: 3px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    color: white;
+    background-color: #009688;
+}
+
+.icon-tabler{
+    margin-bottom: -5px !important;
+    color: #009d4c;
+}
+
+/* HEADER */
+.logoImg{
+    width: 10vh;
+}
+.logo{
+    margin-bottom: 20px;
+}
+.logomain{
+    width: 20vh;
+}
+.element_header{
+    text-align: center;
+    margin: 2px;
+    width: 10%;
+    height: 3vh;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+.menu{
+    float: left;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.selected{
+    background-color: #009d4c;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.menu:hover{
+    background-color: #009d4c;
+    color: white;
+}
+.infouser{
+    float: right;
+    border: 2px solid white;
+    background-color: #1f1f1f;
+    color: white;
+    border-radius: 5px;
+}
+
+#inicio{
+    border: 3px solid #1f1f1f;
+    clear: both;
+    height: 50vh;
+    background-image: url("https://onnbolivia.com/back.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inicio:before{
+    opacity: 0.3;
+}
+
+
+/* SECCION 1 */
+#seccion_1{
+    clear: both;
+    height: 21.5vh;
+    margin-top: 15px;
+}
+
+.text_seccion1_izq{
+    float: left;
+    text-align: center;
+    margin: 2px;
+    width: 49%;
+    height: 10vh;
+}
+
+.seccion1_izq{
+    float: left;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left:30px;
+    width: 30%;
+    height: 10vh;
+    font-family: Arial;
+}
+.seccion1_der{
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2px;
+    width: 49%;
+    height: 20vh;
+}
+
+/* SECCION 2 */
+#seccion_2{
+    clear: both;
+    height: 21.5vh;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.element_seccion2{
+    margin: 2px;
+    width: 24.5%;
+    height: 10vh;
+}
+.seccion2_izq{
+    float: left;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 20%;
+    height: 10vh;
+    font-family: Arial;
+}
+
+.seccion2_med{
+    float: left;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left:30px;
+    width: 40%;
+    height: 10vh;
+    font-family: Arial;
+}
+.seccion2_der{
+    float: right;
+}
+
+/* footer */
+#footer{
+    clear: both;
+    margin-top: 15px;
+}
+
+.footer_izq{
+    float: left;
+    text-align: justify;
+    margin-top: 10px;
+    width: 49%;
+    height: 25vh;
+    color: #fff;
+    background-color: #1f1f1f;
+}
+.footer_der{
+    float: right;
+    text-align: justify;
+    margin-top: 10px;
+    width: 49%;
+    height: 10vh;
+    font-family: Arial;
+}
